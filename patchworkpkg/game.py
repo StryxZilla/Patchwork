@@ -22,7 +22,7 @@ class game:
         
         
 
-    def play(self, player1, player2, thisboard):
+    def play(self, player1, player2):
         self.player1 = player1
         self.player2 = player2
         while not   self.checkEnd():
@@ -170,7 +170,7 @@ class game:
                 except Exception as e:
                     self.logger.info(e)
                     self.logger.info('Reverting')
-                    #player1 = backup
+                    player1 = backup
                     self.logger.info('Try Again')
             else:
                 self.logger.info('Invalid entry.  Try again')
@@ -184,4 +184,3 @@ class game:
             'P':[self.logger.infoBoard()]
             }
         print(self.actionList)
-             
