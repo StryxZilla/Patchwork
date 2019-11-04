@@ -7,6 +7,7 @@ Created on Nov 3, 2019
 import sys
 import patchworkPlayer
 import player
+import dialogMessages as dm
 
 class game:
     def __init__(self,name='NewGame',*args):
@@ -18,6 +19,7 @@ class game:
         self.logger = args[0]
         self.moveList = {}
         self.play(args[1][0],args[1][1], self.thisboard)
+        
         
 
     def play(self, player1, player2, thisboard):
@@ -70,7 +72,6 @@ class game:
         self.logger.info('Position: {0}'.format(self.player1.position))
         self.logger.info('Buttons on Tapestry: {0}'.format(self.player1.buttons))
         self.logger.info('Empty Squares: {0}'.format(self.player1.emptySquares))
-        self.player1.projectPoints(self)
         self.logger.info('*********************')
         self.logger.info('Player: {0}'.format(self.player2.name))
         self.logger.info('Points: {0}'.format(self.player2.points))
@@ -78,6 +79,7 @@ class game:
         self.logger.info('Buttons on Tapestry: {0}'.format(self.player2.buttons))
         self.logger.info('Empty Squares: {0}'.format(self.player2.emptySquares))
         self.logger.info('**********************')
+
 
     #this method does not keep track of the tile options
     def chooseTile(self, chooser):
@@ -91,6 +93,7 @@ class game:
         self.logger.info('Buying tile {0}\n'.format(tile))
         key = list(tile)[0]
         g=tile[list(tile)[0]][0:4]
+        
 
         chooser.buy(g)
         movedistance = min(int(g[1]), self.end-chooser.position)
@@ -99,7 +102,7 @@ class game:
         g.append(True)
         self.thisboard.contents[key] = g
         self.logger.info('Marking token {0} as used.'.format(key))
-        self.logger.info('Moving token from {0} to {1}'.formst(self.thisboard.tokenPo,key))
+        self.logger.info('Moving token from {0} to {1}'.format(self.thisboard.tokenPos,key))
         self.thisboard.tokenPos = key
         self.logger.info('\n')
 
@@ -131,29 +134,23 @@ class game:
 
     def takeTurn(self, player1, player2, thisboard):
         self.thisboard = thisboard
-        
-        self.logger.info('\n')
         while player1.position <= player2.position:
             self.logger.info(self.printScore())
-            self.logger.info('Player '+str(player1.name)+''':
-Enter S to see the score.
-Enter Q to quit
-Press T to register +7 card for this player.
-Enter P to print board.
-Enter A to pass opponent.
-Enter an index to pick a tile.
-''')
+            print('test')
+            self.logger.info(dm.sessionMessages['patchworkActions'].format(player1.name))
             self.logger.info(self.presentOptions(player1))
             indata = input()
-        return self.takeAction(indata, player1)
+            player1 = self.takeAction(indata,player1)
+        return player1
             
 
     def logMove(self, move, player):
         pass
     
     def takeAction(self, *args):
+            print('test')
             indata = args[0]
-            player = args[1]
+            player1 = args[1]
             if indata == 'Q':
                 sys.exit()
             elif indata == 'S':
@@ -167,35 +164,24 @@ Enter an index to pick a tile.
                 player.points+=7
             elif indata in map(str,range(0,3)):
                 try:
-                    backup = player.player(player.name, player.position, player.points, player.buttons, player.emptySquares)
-                    self.chooseOption(0,player)
+                    backup = player.player(player1.name, player1.position, player1.points, player1.buttons, player1.emptySquares)
+                    self.chooseOption(int(indata),player1)
                     self.completedRounds += 1
                 except Exception as e:
                     self.logger.info(e)
                     self.logger.info('Reverting')
-                    player = backup
-                    self.logger.info('Try Again')
-            elif indata == '1':
-                try:
-                    backup = player.player(player.name, player.position, player.points, player.buttons, player.emptySquares)
-                    self.chooseOption(1,player)
-                    self.completedRounds += 1
-                except Exception as e:
-                    self.logger.info(e)
-                    self.logger.info('Reverting')
-                    player1 = backup
-                    self.logger.info('Try Again')
-            elif indata == '2':
-                try:
-                    backup = player.player(player.name, player.position, player.points, player.buttons, player.emptySquares)
-                    self.chooseOption(2,player)
-                    self.completedRounds += 1
-                except Exception as e:
-                    self.logger.info(e)
-                    self.logger.info('Reverting')
-                    player1 = backup
+                    #player1 = backup
                     self.logger.info('Try Again')
             else:
-                self.logger.info('Invalid entrplayer2.  Try again')
+                self.logger.info('Invalid entry.  Try again')
         
-            return player   
+            return player1  
+        
+    def buildActions(self):
+        self.actionList = {
+            'Q':[sys.exit],
+            'S':[self.logger.info(self.printScore())],
+            'P':[self.logger.infoBoard()]
+            }
+        print(self.actionList)
+             
