@@ -43,12 +43,11 @@ class game:
     def takeTurn(self, player1, player2, thisboard):
         self.thisboard = thisboard
         while player1.position <= player2.position:
-            self.logger.info(self.printScore())
-            print('test')
+            self.printScore()
             self.logger.info(dm.sessionMessages['patchworkActions'].format(player1.name))
             self.logger.info(self.presentOptions(player1))
             indata = input()
-            player1 = self.takeAction(indata,player1)
+            player1 = self.takeAction(indata,player1,player2)
         return player1
 
     def move(self, player, distance):    
@@ -140,19 +139,19 @@ class game:
 
     
     def takeAction(self, *args):
-            print('test')
             indata = args[0]
             player1 = args[1]
-            if indata == 'Q':
+            player2 = args[2]
+            thisAction = self.createActionObject(player1, indata)
+            if thisAction['Action'] == 'Q':
                 sys.exit()
             elif indata == 'S':
                 self.logger.info(self.printScore())
             elif indata == 'P':
                 self.logger.infoBoard()
             elif indata == 'A':
-                thisMove = self.createMoveObject(player1, indata)
-                self.logMove(thisMove)
-                self.choosePass(player)
+                self.logMove(thisAction)
+                self.choosePass(player1,player2 )
                 self.completedRounds += 1
             elif indata == 'T':
                 player.points+=7
@@ -171,10 +170,11 @@ class game:
         
             return player1  
      
-    def createMoveObject(self, *args):
-        self.logger.debug('test')
-        thisMoveObject = {self.completedRounds: args}
-        return thisMoveObject
+    def createActionObject(self, *args):
+        thisActionObject={'player': args[0].name}
+        thisActionObject['Action'] = args[1]
+        print(thisActionObject)
+        return thisActionObject
                 
     def logMove(self, moveObject):
         pass
