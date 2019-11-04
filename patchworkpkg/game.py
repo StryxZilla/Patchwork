@@ -10,6 +10,11 @@ import player
 import dialogMessages as dm
 
 class game:
+    
+    class moveObject:
+        def __init(self):
+            pass
+    
     def __init__(self,name='NewGame',*args):
         self.completedRounds = 0
         self.name = name
@@ -18,7 +23,9 @@ class game:
         self.thisboard = patchworkPlayer.board()
         self.logger = args[0]
         self.moveList = {}
-        self.play(args[1][0],args[1][1])
+        self.player1 = args[1][0]
+        self.player2 = args[1][1]
+        self.play(self.player1, self.player2)
         
     def play(self, player1, player2):
         while not   self.checkEnd():
@@ -130,9 +137,7 @@ class game:
                 if int(innervalue[0])>int(player.points): returnString+='**'
                 returnString += 'Index {0} has value ({1}) and dimensions ({2})\n'.format(key,(player.buttonsleft*int(innervalue[2]))+(2*int(innervalue[3]))-(int(innervalue[0])+int(innervalue[1])),','.join(innervalue[0:4]))
         return (returnString)
-            
-    def logMove(self, move, player):
-        pass
+
     
     def takeAction(self, *args):
             print('test')
@@ -145,6 +150,8 @@ class game:
             elif indata == 'P':
                 self.logger.infoBoard()
             elif indata == 'A':
+                thisMove = self.createMoveObject(player1, indata)
+                self.logMove(thisMove)
                 self.choosePass(player)
                 self.completedRounds += 1
             elif indata == 'T':
@@ -163,7 +170,15 @@ class game:
                 self.logger.info('Invalid entry.  Try again')
         
             return player1  
-        
+     
+    def createMoveObject(self, *args):
+        self.logger.debug('test')
+        thisMoveObject = {self.completedRounds: args}
+        return thisMoveObject
+                
+    def logMove(self, moveObject):
+        pass
+       
     def buildActions(self):
         self.actionList = {
             'Q':[sys.exit],
@@ -171,3 +186,4 @@ class game:
             'P':[self.logger.infoBoard()]
             }
         print(self.actionList)
+        
