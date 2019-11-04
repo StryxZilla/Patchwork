@@ -18,25 +18,31 @@ class game:
         self.thisboard = patchworkPlayer.board()
         self.logger = args[0]
         self.moveList = {}
-        self.play(args[1][0],args[1][1], self.thisboard)
+        self.play(args[1][0],args[1][1])
         
-        
-
     def play(self, player1, player2):
-        self.player1 = player1
-        self.player2 = player2
         while not   self.checkEnd():
-            self.player1 = self.takeTurn(self.player1, self.player2, self.thisboard)
-            self.player2 = self.takeTurn(self.player2, self.player1, self.thisboard)
+            self.player1 = self.takeTurn(player1, player2, self.thisboard)
+            self.player2 = self.takeTurn(player2, player1, self.thisboard)
         if self.player1.projectPoints()>self.player2.projectPoints():
-            self.winner = player1
             self.logger.info('Game Over!  Player {0} won {1} to {2}'.format(player1.name, self.player1.projectedPoints(),self.player2.projectedPoints()))
         elif self.player2.projectPoints()>self.player1.projectPoints():
-            self.winner = player2
+            self.logger.info('Game Over!  Player {0} won {1} to {2}'.format(player2.name, self.player2.projectedPoints(),self.player1.projectedPoints()))
         elif self.player2.projectPoints()==self.player2.projectPoints():
             self.logger.info('Game Over!  Players tied! {0} to {1}'.format(self.player1.projectedPoints(),self.player2.projectedPoints()))
         else:
             self.logger.info('Game Over!  Error!')
+            
+    def takeTurn(self, player1, player2, thisboard):
+        self.thisboard = thisboard
+        while player1.position <= player2.position:
+            self.logger.info(self.printScore())
+            print('test')
+            self.logger.info(dm.sessionMessages['patchworkActions'].format(player1.name))
+            self.logger.info(self.presentOptions(player1))
+            indata = input()
+            player1 = self.takeAction(indata,player1)
+        return player1
 
     def move(self, player, distance):    
         self.logger.info('Moving player {0} from position {1} to position {2}'.format(player.name,player.position,player.position+int(distance)))
@@ -93,12 +99,9 @@ class game:
         self.logger.info('Buying tile {0}\n'.format(tile))
         key = list(tile)[0]
         g=tile[list(tile)[0]][0:4]
-        
-
         chooser.buy(g)
         movedistance = min(int(g[1]), self.end-chooser.position)
         self.move(chooser,movedistance)
-
         g.append(True)
         self.thisboard.contents[key] = g
         self.logger.info('Marking token {0} as used.'.format(key))
@@ -106,8 +109,6 @@ class game:
         self.thisboard.tokenPos = key
         self.logger.info('\n')
 
-
-        
     def chooseOption(self, optionIndex, chooser):
         self.logger.info('Buying tile with local option index {0}'.format(optionIndex))
         for value in self.thisboard.nextOptions[optionIndex].values():
@@ -115,7 +116,6 @@ class game:
             holder.append(chooser.buttonsleft*int(value[2]))
             self.chooseTile2(self.thisboard.nextOptions[optionIndex],chooser)
 
-    
     def checkEnd(self):
         if self.end < self.player1.position or self.end < self.player2.position:
             return True
@@ -131,19 +131,6 @@ class game:
                 returnString += 'Index {0} has value ({1}) and dimensions ({2})\n'.format(key,(player.buttonsleft*int(innervalue[2]))+(2*int(innervalue[3]))-(int(innervalue[0])+int(innervalue[1])),','.join(innervalue[0:4]))
         return (returnString)
             
-
-    def takeTurn(self, player1, player2, thisboard):
-        self.thisboard = thisboard
-        while player1.position <= player2.position:
-            self.logger.info(self.printScore())
-            print('test')
-            self.logger.info(dm.sessionMessages['patchworkActions'].format(player1.name))
-            self.logger.info(self.presentOptions(player1))
-            indata = input()
-            player1 = self.takeAction(indata,player1)
-        return player1
-            
-
     def logMove(self, move, player):
         pass
     
