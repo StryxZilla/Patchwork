@@ -77,7 +77,6 @@ class game:
         self.logger.info('Position: {0}'.format(self.player2.position))
         self.logger.info('Buttons on Tapestry: {0}'.format(self.player2.buttons))
         self.logger.info('Empty Squares: {0}'.format(self.player2.emptySquares))
-        self.player2.projectPoints(self)
         self.logger.info('**********************')
 
     #this method does not keep track of the tile options
@@ -146,51 +145,8 @@ Enter an index to pick a tile.
 ''')
             self.logger.info(self.presentOptions(player1))
             indata = input()
-            if indata == 'Q':
-                sys.exit()
-            elif indata == 'S':
-                self.self.logger.infoScore()
-            elif indata == 'P':
-                self.logger.info(thisboard.printBoard())
-            elif indata == 'A':
-                self.choosePass(player1,player2)
-                self.completedRounds += 1
-            elif indata == 'T':
-                player1.points+=7
-            elif indata == '0':
-                try:
-                    backup = player.player(player1.name, player1.position, player1.points, player1.buttons, player1.emptySquares)
-                    self.chooseOption(0,player1)
-                    self.completedRounds += 1
-                except Exception as e:
-                    self.logger.info(e)
-                    self.logger.info('Reverting')
-                    player1 = backup
-                    self.logger.info('Try Again')
-            elif indata == '1':
-                try:
-                    backup = player.player(player1.name, player1.position, player1.points, player1.buttons, player1.emptySquares)
-                    self.chooseOption(1,player1)
-                    self.completedRounds += 1
-                except Exception as e:
-                    self.logger.info(e)
-                    self.logger.info('Reverting')
-                    player1 = backup
-                    self.logger.info('Try Again')
-            elif indata == '2':
-                try:
-                    backup = player.player(player1.name, player1.position, player1.points, player1.buttons, player1.emptySquares)
-                    self.chooseOption(2,player1)
-                    self.completedRounds += 1
-                except Exception as e:
-                    self.logger.info(e)
-                    self.logger.info('Reverting')
-                    player1 = backup
-                    self.logger.info('Try Again')
-            else:
-                self.logger.info('Invalid entrplayer2.  Try again')
-
-        return player1
+        return self.takeAction(indata, player1)
+            
 
     def logMove(self, move, player):
         pass
@@ -209,7 +165,7 @@ Enter an index to pick a tile.
                 self.completedRounds += 1
             elif indata == 'T':
                 player.points+=7
-            elif indata in :
+            elif indata in map(str,range(0,3)):
                 try:
                     backup = player.player(player.name, player.position, player.points, player.buttons, player.emptySquares)
                     self.chooseOption(0,player)
@@ -242,4 +198,4 @@ Enter an index to pick a tile.
             else:
                 self.logger.info('Invalid entrplayer2.  Try again')
         
-        
+            return player   
