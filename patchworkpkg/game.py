@@ -21,6 +21,7 @@ class game:
         self.player1 = args[1][0]
         self.player2 = args[1][1]
         self.play(self.player1, self.player2)
+
         
     def play(self, player1, player2):
         while not   self.checkEnd():
@@ -42,7 +43,8 @@ class game:
             self.logger.info(dm.sessionMessages['patchworkActions'].format(player1.name))
             self.logger.info(self.presentOptions(player1))
             indata = input()
-            player1 = self.takeAction(indata,player1,player2)
+            thisAction = self.createActionObject(indata, player1, player2)
+            player1 = self.takeAction(thisAction)
         return player1
 
     def move(self, player, distance):    
@@ -60,13 +62,17 @@ class game:
                 self.logger.info('Adding {0} points from a button token to player {1}'.format(player.buttons,player.name))
         player.position = newpos
 
-    def choosePass(self, passer, passed):
-        newposition = min(passed.position+1,self.end)
+    def choosePass(self, thisAction, direction):
+        passer = thisAction['player1']
+        passed = thisAction['player2']
+        if direction == 1: newposition = min(passed.position+direction, self.end) 
+        else: newposition = thisAction['startpos']  
         self.logger.info('Player {0} is passing {1}'.format(passer.name,passed.name))
         self.logger.info('Player {0} is moving from position {1} to position {2}'.format(passer.name,passer.position,newposition))
         self.logger.info('Adding {0} points for passing movement.'.format(newposition-passer.position))
         passer.points += (newposition-passer.position)
         self.move(passer, (newposition-passer.position))
+        self.completedRounds += (direction)
         self.logger.info('New points: {0}'.format(passer.points))
         self.logger.info('New position: {0}'.format(passer.position))
 
@@ -96,7 +102,7 @@ class game:
         movedistance = min(int(g[1]), self.end-chooser.position)
         self.move(chooser,movedistance)
 
-    def chooseTile2(self, thisAction, tile, chooser):
+    def chooseTile2(self, thisAction, tile, chooser, direction = 1):
         self.logger.info('\nBuying tile {0}\n'.format(tile))
         key = list(tile)[0]
         g=tile[list(tile)[0]][0:4]
@@ -111,11 +117,11 @@ class game:
         self.thisboard.tokenPos = key
         self.logger.info('\n')
 
-    def chooseOption(self, thisAction,optionIndex, chooser):
+    def chooseOption(self, thisAction,optionIndex, chooser, direction=1):
         self.logger.info('Buying tile with local option index {0}'.format(optionIndex))
         for value in self.thisboard.nextOptions[optionIndex].values():
             holder = value[0:4]
-            self.chooseTile2(thisAction, self.thisboard.nextOptions[optionIndex],chooser)
+            self.chooseTile2(thisAction, self.thisboard.nextOptions[optionIndex],chooser, direction)
 
     def checkEnd(self):
         if self.end < self.player1.position or self.end < self.player2.position:
@@ -133,60 +139,67 @@ class game:
         return (returnString)
 
     
-    def takeAction(self, *args):
-            indata = args[0]
-            player1 = args[1]
-            player2 = args[2]
-            thisAction = self.createActionObject(player1, indata)
-            if thisAction['action'] == 'Q':
-                sys.exit()
-            elif thisAction['action'] == 'S':
-                self.logger.info(self.printScore())
-            elif thisAction['action'] == 'P':
-                self.logger.info(self.thisboard.printBoard())
-                self.logger.info(self.moveList)
-            elif thisAction['action'] == 'A':
-                self.choosePass(player1,player2)
+    def takeAction(self, thisAction, direction=1):
+        indata = thisAction['action']
+        player1 = thisAction['player1']
+        player2 = thisAction['player2']
+        print (direction)
+        if indata == 'Q':
+            sys.exit()
+        elif indata == 'S':
+            self.printScore()
+        elif indata == 'B':
+            self.thisboard.printBoard()
+        elif indata == 'P':
+            if 'startpos' not in thisAction.keys(): thisAction['startpos'] = player1.position
+            self.choosePass(thisAction,direction)
+            self.logMove(thisAction)
+        elif indata == 'U':
+            self.logger.info('Unrolling move:')
+            self.unrollAction()
+        elif indata == 'T':
+            player.points+=7
+            self.logMove(thisAction)
+        elif indata in map(str,range(0,3)):
+            try:
+                #backup = player.player(player1.name, player1.position, player1.points, player1.buttons, player1.emptySquares)
+                self.augmentAction(thisAction, 'tile', self.thisboard.nextOptions[int(indata)])
+                self.chooseOption(thisAction,int(indata),player1)
                 self.completedRounds += 1
                 self.logMove(thisAction)
-            elif indata == 'T':
-                self.logMove(thisAction)
-                player.points+=7
-            elif indata in map(str,range(0,3)):
-                try:
-                    backup = player.player(player1.name, player1.position, player1.points, player1.buttons, player1.emptySquares)
-                    self.augmentAction(thisAction, 'tile', self.thisboard.nextOptions[int(indata)])
-                    self.chooseOption(thisAction,int(indata),player1)
-                    self.completedRounds += 1
-                    self.logMove(thisAction)
-                except Exception as e:
-                    self.logger.info(e)
-                    self.logger.info('Reverting')
-                    player1 = backup
-                    self.logger.info('Try Again')
-            else:
-                self.logger.info('Invalid entry.  Try again')
+            except Exception as e:
+                self.logger.info(e)
+                self.logger.info('Reverting')
+                #player1 = backup
+                self.logger.info('Try Again')
+        else:
+            self.logger.info('Invalid entry.  Try again')
         
-            return player1  
-     
+        return player1  
+    
+    def calcMoveDistanct(self, toPosition, fromPosition ):
+        if direction == 1: newposition = min(passed.position+direction, self.end) 
+        else: newposition = thisAction['startpos']  
+        distance = (newposition-passer.position)
+    
     def createActionObject(self, *args):
-        thisActionObject={'player': args[0].name}
-        thisActionObject['action'] = args[1]
-        if len(args) > 2: thisActionObject['tile'] = args[2]
+        thisActionObject={'action': args[0]}
+        thisActionObject['player1'] = args[1]
+        thisActionObject['player2'] = args[2]
+        if len(args) > 3: thisActionObject['tile'] = args[3]
         return thisActionObject
     
     def augmentAction(self,*args):
         args[0][args[1]] = args[2]
+    
+    def unrollAction(self):
+        unrolledAction = self.moveList.pop()
+        self.takeAction(unrolledAction,-1)
+        self.logger.info('Action {0} unrolled!'.format(unrolledAction))
+
                 
     def logMove(self, actionObject):
         self.moveList.append(actionObject)
         print(self.moveList)
       
-    def buildActions(self):
-        self.actionList = {
-            'Q':[sys.exit],
-            'S':[self.logger.info(self.printScore())],
-            'P':[self.logger.infoBoard()]
-            }
-        print(self.actionList)
         

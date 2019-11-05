@@ -6,7 +6,7 @@ sessionMessages = {
 			'invalidSelection': 'You chose %s which is an invalid action.  Please try again.',
 			'exitMessage': '\nExiting console!\nGoodbye!!\n',
                         'removePlayer': '\nEnter player name to remove.\n',
-                        'patchworkActions': 'Player {0}:\nEnter S to see the score.\nEnter Q to quit\nPress T to register +7 card for this player.\nEnter P to print board.\nEnter A to pass opponent.\nEnter an index to pick a tile.\n'
+                        'patchworkActions': 'Player {0}:\nEnter S to see the score.\nEnter Q to quit\nPress T to register +7 card for this player.\nEnter B to print board.\nEnter U to undo a move\nEnter P to pass opponent.\nEnter an index to pick a tile.\n'
 		}
 
 availableGames = {
