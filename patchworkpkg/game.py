@@ -5,24 +5,19 @@ Created on Nov 3, 2019
 '''
 
 import sys
-import patchworkPlayer
+import patchworkGame
 import player
 import dialogMessages as dm
 
 class game:
-    
-    class moveObject:
-        def __init(self):
-            pass
-    
     def __init__(self,name='NewGame',*args):
         self.completedRounds = 0
         self.name = name
         self.end = 53
         self.playerList = args
-        self.thisboard = patchworkPlayer.board()
+        self.thisboard = patchworkGame.board()
         self.logger = args[0]
-        self.moveList = {}
+        self.moveList = []
         self.player1 = args[1][0]
         self.player2 = args[1][1]
         self.play(self.player1, self.player2)
@@ -184,8 +179,8 @@ class game:
         args[0][args[1]] = args[2]
                 
     def logMove(self, actionObject):
-        self.moveList[self.completedRounds] = actionObject
-        pass
+        self.moveList.append(actionObject)
+        print(self.moveList)
       
     def buildActions(self):
         self.actionList = {

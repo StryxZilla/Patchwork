@@ -2314,3 +2314,6725 @@ Index 0 has value (17) and dimensions (5,3,1,8)
 Index 1 has value (11) and dimensions (4,2,1,4)
 **Index 2 has value (23) and dimensions (10,4,3,5)
 
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Player A is passing L
+Player A is moving from position 0 to position 1
+Adding 1 points for passing movement.
+Moving player A from position 0 to position 1
+New points: 6
+New position: 1
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 6
+Position: 1
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Player A is passing L
+Player A is moving from position 0 to position 1
+Adding 1 points for passing movement.
+Moving player A from position 0 to position 1
+New points: 6
+New position: 1
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 6
+Position: 1
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 0
+Buying tile {0: ['5', '3', '1', '8', False]}
+
+Moving player L from position 0 to position 3
+Marking token 0 as used.
+Moving token from 0 to 0
+
+
+**********************
+Completed Rounds: 2
+Token Location: 0
+*********************
+Player: A
+Points: 6
+Position: 1
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Player A is passing L
+Player A is moving from position 0 to position 1
+Adding 1 points for passing movement.
+Moving player A from position 0 to position 1
+New points: 6
+New position: 1
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 6
+Position: 1
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 0
+Buying tile {0: ['5', '3', '1', '8', False]}
+
+Moving player L from position 0 to position 3
+Marking token 0 as used.
+Moving token from 0 to 0
+
+
+**********************
+Completed Rounds: 2
+Token Location: 0
+*********************
+Player: A
+Points: 6
+Position: 1
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Buying tile with local option index 0
+Buying tile {1: ['4', '2', '1', '4', False]}
+
+Moving player A from position 1 to position 3
+Marking token 1 as used.
+Moving token from 0 to 1
+
+
+**********************
+Completed Rounds: 3
+Token Location: 1
+*********************
+Player: A
+Points: 2
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 77
+*********************
+Player: L
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Player A is passing L
+Player A is moving from position 3 to position 4
+Adding 1 points for passing movement.
+Moving player A from position 3 to position 4
+New points: 3
+New position: 4
+**********************
+Completed Rounds: 4
+Token Location: 1
+*********************
+Player: A
+Points: 3
+Position: 4
+Buttons on Tapestry: 1
+Empty Squares: 77
+*********************
+Player: L
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Player L is passing A
+Player L is moving from position 3 to position 5
+Adding 2 points for passing movement.
+Moving player L from position 3 to position 5
+Adding 1 points from a button token to player L
+New points: 3
+New position: 5
+**********************
+Completed Rounds: 5
+Token Location: 1
+*********************
+Player: A
+Points: 3
+Position: 4
+Buttons on Tapestry: 1
+Empty Squares: 77
+*********************
+Player: L
+Points: 3
+Position: 5
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Player A is passing L
+Player A is moving from position 4 to position 6
+Adding 2 points for passing movement.
+Moving player A from position 4 to position 6
+Adding 1 points from a button token to player A
+New points: 6
+New position: 6
+**********************
+Completed Rounds: 6
+Token Location: 1
+*********************
+Player: A
+Points: 6
+Position: 6
+Buttons on Tapestry: 1
+Empty Squares: 77
+*********************
+Player: L
+Points: 3
+Position: 5
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (20) and dimensions (10,4,3,5)
+**Index 1 has value (22) and dimensions (8,6,3,6)
+**Index 2 has value (16) and dimensions (5,5,2,5)
+
+Player L is passing A
+Player L is moving from position 5 to position 7
+Adding 2 points for passing movement.
+Moving player L from position 5 to position 7
+New points: 5
+New position: 7
+**********************
+Completed Rounds: 7
+Token Location: 1
+*********************
+Player: A
+Points: 6
+Position: 6
+Buttons on Tapestry: 1
+Empty Squares: 77
+*********************
+Player: L
+Points: 5
+Position: 7
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (20) and dimensions (10,4,3,5)
+**Index 1 has value (22) and dimensions (8,6,3,6)
+Index 2 has value (16) and dimensions (5,5,2,5)
+
+Buying tile with local option index 2
+Buying tile {4: ['5', '5', '2', '5', False]}
+
+Moving player A from position 6 to position 11
+Adding 3 points from a button token to player A
+Marking token 4 as used.
+Moving token from 1 to 4
+
+
+**********************
+Completed Rounds: 8
+Token Location: 4
+*********************
+Player: A
+Points: 4
+Position: 11
+Buttons on Tapestry: 3
+Empty Squares: 72
+*********************
+Player: L
+Points: 5
+Position: 7
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (10) and dimensions (3,3,1,4)
+Index 1 has value (9) and dimensions (2,3,0,7)
+Index 2 has value (17) and dimensions (0,3,1,6)
+
+Player L is passing A
+Player L is moving from position 7 to position 12
+Adding 5 points for passing movement.
+Moving player L from position 7 to position 12
+Adding 1 points from a button token to player L
+New points: 11
+New position: 12
+**********************
+Completed Rounds: 9
+Token Location: 4
+*********************
+Player: A
+Points: 4
+Position: 11
+Buttons on Tapestry: 3
+Empty Squares: 72
+*********************
+Player: L
+Points: 11
+Position: 12
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (9) and dimensions (3,3,1,4)
+Index 1 has value (9) and dimensions (2,3,0,7)
+Index 2 has value (16) and dimensions (0,3,1,6)
+
+Player A is passing L
+Player A is moving from position 11 to position 13
+Adding 2 points for passing movement.
+Moving player A from position 11 to position 13
+New points: 6
+New position: 13
+**********************
+Completed Rounds: 10
+Token Location: 4
+*********************
+Player: A
+Points: 6
+Position: 13
+Buttons on Tapestry: 3
+Empty Squares: 72
+*********************
+Player: L
+Points: 11
+Position: 12
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (9) and dimensions (3,3,1,4)
+Index 1 has value (9) and dimensions (2,3,0,7)
+Index 2 has value (16) and dimensions (0,3,1,6)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 0
+Buying tile {0: ['5', '3', '1', '8', False]}
+
+Moving player A from position 0 to position 3
+Marking token 0 as used.
+Moving token from 0 to 0
+
+
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 0
+Buying tile {0: ['5', '3', '1', '8', False]}
+
+Moving player A from position 0 to position 3
+Marking token 0 as used.
+Moving token from 0 to 0
+
+
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Buying tile with local option index 0
+Buying tile {1: ['4', '2', '1', '4', False]}
+
+Moving player L from position 0 to position 2
+Marking token 1 as used.
+Moving token from 0 to 1
+
+
+**********************
+Completed Rounds: 2
+Token Location: 1
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 1
+Position: 2
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Player L is passing A
+Player L is moving from position 2 to position 4
+Adding 2 points for passing movement.
+Moving player L from position 2 to position 4
+New points: 3
+New position: 4
+**********************
+Completed Rounds: 3
+Token Location: 1
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 3
+Position: 4
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 0
+Buying tile {0: ['5', '3', '1', '8', False]}
+
+Moving player A from position 0 to position 3
+Marking token 0 as used.
+Moving token from 0 to 0
+
+
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Player L is passing A
+Player L is moving from position 0 to position 4
+Adding 4 points for passing movement.
+Moving player L from position 0 to position 4
+New points: 9
+New position: 4
+**********************
+Completed Rounds: 2
+Token Location: 0
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 9
+Position: 4
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Player A is passing L
+Player A is moving from position 3 to position 5
+Adding 2 points for passing movement.
+Moving player A from position 3 to position 5
+Adding 1 points from a button token to player A
+New points: 3
+New position: 5
+**********************
+Completed Rounds: 3
+Token Location: 0
+*********************
+Player: A
+Points: 3
+Position: 5
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 9
+Position: 4
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+Index 2 has value (25) and dimensions (8,6,3,6)
+
+Player L is passing A
+Player L is moving from position 4 to position 6
+Adding 2 points for passing movement.
+Moving player L from position 4 to position 6
+Adding 0 points from a button token to player L
+New points: 11
+New position: 6
+**********************
+Completed Rounds: 4
+Token Location: 0
+*********************
+Player: A
+Points: 3
+Position: 5
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 11
+Position: 6
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (10) and dimensions (4,2,1,4)
+**Index 1 has value (20) and dimensions (10,4,3,5)
+**Index 2 has value (22) and dimensions (8,6,3,6)
+
+Player A is passing L
+Player A is moving from position 5 to position 7
+Adding 2 points for passing movement.
+Moving player A from position 5 to position 7
+New points: 5
+New position: 7
+**********************
+Completed Rounds: 5
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 7
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 11
+Position: 6
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (10) and dimensions (4,2,1,4)
+Index 1 has value (20) and dimensions (10,4,3,5)
+Index 2 has value (22) and dimensions (8,6,3,6)
+
+Invalid entry.  Try again
+**********************
+Completed Rounds: 5
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 7
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 11
+Position: 6
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (10) and dimensions (4,2,1,4)
+Index 1 has value (20) and dimensions (10,4,3,5)
+Index 2 has value (22) and dimensions (8,6,3,6)
+
+Buying tile with local option index 0
+Buying tile {1: ['4', '2', '1', '4', False]}
+
+Moving player L from position 6 to position 8
+Marking token 1 as used.
+Moving token from 0 to 1
+
+
+**********************
+Completed Rounds: 6
+Token Location: 1
+*********************
+Player: A
+Points: 5
+Position: 7
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 7
+Position: 8
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (20) and dimensions (10,4,3,5)
+**Index 1 has value (22) and dimensions (8,6,3,6)
+Index 2 has value (16) and dimensions (5,5,2,5)
+
+Buying tile with local option index 0
+Buying tile {2: ['10', '4', '3', '5', False]}
+
+Cannot spend more buttons than you have
+Reverting
+Try Again
+**********************
+Completed Rounds: 6
+Token Location: 1
+*********************
+Player: A
+Points: 5
+Position: 7
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 7
+Position: 8
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+Index 2 has value (18) and dimensions (5,5,2,5)
+
+Invalid entry.  Try again
+**********************
+Completed Rounds: 6
+Token Location: 1
+*********************
+Player: A
+Points: 5
+Position: 7
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 7
+Position: 8
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+Index 2 has value (18) and dimensions (5,5,2,5)
+
+Buying tile with local option index 0
+Buying tile {2: ['10', '4', '3', '5', False]}
+
+Cannot spend more buttons than you have
+Reverting
+Try Again
+**********************
+Completed Rounds: 6
+Token Location: 1
+*********************
+Player: A
+Points: 5
+Position: 7
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 7
+Position: 8
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+Index 2 has value (18) and dimensions (5,5,2,5)
+
+Buying tile with local option index 2
+Buying tile {4: ['5', '5', '2', '5', False]}
+
+Moving player A from position 7 to position 12
+Adding 3 points from a button token to player A
+Marking token 4 as used.
+Moving token from 1 to 4
+
+
+**********************
+Completed Rounds: 7
+Token Location: 4
+*********************
+Player: A
+Points: 3
+Position: 12
+Buttons on Tapestry: 3
+Empty Squares: 68
+*********************
+Player: L
+Points: 7
+Position: 8
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (10) and dimensions (3,3,1,4)
+Index 1 has value (9) and dimensions (2,3,0,7)
+Index 2 has value (17) and dimensions (0,3,1,6)
+
+Starting gameConsole
+
+Please enter player name.
+Added player Andy.
+
+Please enter player name.
+Added player Lisa.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: Andy
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: Lisa
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player Andy:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 0
+Buying tile {0: ['5', '3', '1', '8', False]}
+
+Moving player Andy from position 0 to position 3
+Marking token 0 as used.
+Moving token from 0 to 0
+
+
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: Andy
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: Lisa
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player Lisa:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Player Lisa is passing Andy
+Player Lisa is moving from position 0 to position 4
+Adding 4 points for passing movement.
+Moving player Lisa from position 0 to position 4
+New points: 9
+New position: 4
+**********************
+Completed Rounds: 2
+Token Location: 0
+*********************
+Player: Andy
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: Lisa
+Points: 9
+Position: 4
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player Andy:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 0
+Buying tile {0: ['5', '3', '1', '8', False]}
+
+Moving player A from position 0 to position 3
+Marking token 0 as used.
+Moving token from 0 to 0
+
+
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Buying tile with local option index 0
+Buying tile {1: ['4', '2', '1', '4', False]}
+
+Moving player L from position 0 to position 2
+Marking token 1 as used.
+Moving token from 0 to 1
+
+
+**********************
+Completed Rounds: 2
+Token Location: 1
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 1
+Position: 2
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Player L is passing A
+Player L is moving from position 2 to position 4
+Adding 2 points for passing movement.
+Moving player L from position 2 to position 4
+New points: 3
+New position: 4
+**********************
+Completed Rounds: 3
+Token Location: 1
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 3
+Position: 4
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Player A is passing L
+Player A is moving from position 3 to position 5
+Adding 2 points for passing movement.
+Moving player A from position 3 to position 5
+Adding 1 points from a button token to player A
+New points: 3
+New position: 5
+**********************
+Completed Rounds: 4
+Token Location: 1
+*********************
+Player: A
+Points: 3
+Position: 5
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 3
+Position: 4
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 0
+Buying tile {0: ['5', '3', '1', '8', False]}
+
+Moving player A from position 0 to position 3
+Marking token 0 as used.
+Moving token from 0 to 0
+
+
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Buying tile with local option index 0
+Buying tile {1: ['4', '2', '1', '4', False]}
+
+Moving player L from position 0 to position 2
+Marking token 1 as used.
+Moving token from 0 to 1
+
+
+**********************
+Completed Rounds: 2
+Token Location: 1
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 1
+Position: 2
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Player L is passing A
+Player L is moving from position 2 to position 4
+Adding 2 points for passing movement.
+Moving player L from position 2 to position 4
+New points: 3
+New position: 4
+**********************
+Completed Rounds: 3
+Token Location: 1
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 3
+Position: 4
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Player A is passing L
+Player A is moving from position 3 to position 5
+Adding 2 points for passing movement.
+Moving player A from position 3 to position 5
+Adding 1 points from a button token to player A
+New points: 3
+New position: 5
+**********************
+Completed Rounds: 4
+Token Location: 1
+*********************
+Player: A
+Points: 3
+Position: 5
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 3
+Position: 4
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Player L is passing A
+Player L is moving from position 4 to position 6
+Adding 2 points for passing movement.
+Moving player L from position 4 to position 6
+Adding 1 points from a button token to player L
+New points: 6
+New position: 6
+**********************
+Completed Rounds: 5
+Token Location: 1
+*********************
+Player: A
+Points: 3
+Position: 5
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 6
+Position: 6
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (20) and dimensions (10,4,3,5)
+**Index 1 has value (22) and dimensions (8,6,3,6)
+**Index 2 has value (16) and dimensions (5,5,2,5)
+
+Player A is passing L
+Player A is moving from position 5 to position 7
+Adding 2 points for passing movement.
+Moving player A from position 5 to position 7
+New points: 5
+New position: 7
+**********************
+Completed Rounds: 6
+Token Location: 1
+*********************
+Player: A
+Points: 5
+Position: 7
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 6
+Position: 6
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (20) and dimensions (10,4,3,5)
+**Index 1 has value (22) and dimensions (8,6,3,6)
+Index 2 has value (16) and dimensions (5,5,2,5)
+
+Buying tile with local option index 2
+Buying tile {4: ['5', '5', '2', '5', False]}
+
+Moving player L from position 6 to position 11
+Adding 3 points from a button token to player L
+Marking token 4 as used.
+Moving token from 1 to 4
+
+
+**********************
+Completed Rounds: 7
+Token Location: 4
+*********************
+Player: A
+Points: 5
+Position: 7
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 4
+Position: 11
+Buttons on Tapestry: 3
+Empty Squares: 72
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (10) and dimensions (3,3,1,4)
+Index 1 has value (9) and dimensions (2,3,0,7)
+Index 2 has value (17) and dimensions (0,3,1,6)
+
+Starting gameConsole
+
+Please enter player name.
+Added player Andy.
+
+Please enter player name.
+Added player Lisa.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: Andy
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: Lisa
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player Andy:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+chooseOption() takes 3 positional arguments but 4 were given
+Reverting
+Try Again
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: Andy
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: Lisa
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player Andy:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+chooseOption() takes 4 positional arguments but 5 were given
+Reverting
+Try Again
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+chooseOption() takes 4 positional arguments but 5 were given
+Reverting
+Try Again
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+chooseOption() takes 4 positional arguments but 5 were given
+Reverting
+Try Again
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+chooseOption() takes 4 positional arguments but 5 were given
+Reverting
+Try Again
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+chooseOption() takes 4 positional arguments but 5 were given
+Reverting
+Try Again
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player P.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: P
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 0
+chooseTile2() missing 1 required positional argument: 'action'
+Reverting
+Try Again
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: P
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 0
+chooseTile2() missing 1 required positional argument: 'action'
+Reverting
+Try Again
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: P
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 0
+chooseTile2() missing 1 required positional argument: 'action'
+Reverting
+Try Again
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: P
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 0
+Buying tile {0: ['5', '3', '1', '8', False]}
+
+Moving player A from position 0 to position 3
+Marking token 0 as used.
+Moving token from 0 to 0
+
+
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Buying tile with local option index 0
+Buying tile {1: ['4', '2', '1', '4', False]}
+
+Moving player L from position 0 to position 2
+Marking token 1 as used.
+Moving token from 0 to 1
+
+
+**********************
+Completed Rounds: 2
+Token Location: 1
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 1
+Position: 2
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Player L is passing A
+Player L is moving from position 2 to position 4
+Adding 2 points for passing movement.
+Moving player L from position 2 to position 4
+New points: 3
+New position: 4
+**********************
+Completed Rounds: 3
+Token Location: 1
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 3
+Position: 4
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+'0'
+Reverting
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+'0'
+Reverting
+Try Again
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+'0'
+Reverting
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+'0'
+Reverting
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+'0'
+Reverting
+Try Again
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 0
+Buying tile {0: ['5', '3', '1', '8', False]}
+
+Moving player A from position 0 to position 3
+Marking token 0 as used.
+Moving token from 0 to 0
+
+
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+You chose  which is an invalid action.  Please try again.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 0
+Buying tile {0: ['5', '3', '1', '8', False]}
+
+Moving player A from position 0 to position 3
+Marking token 0 as used.
+Moving token from 0 to 0
+
+
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Buying tile with local option index 0
+Buying tile {1: ['4', '2', '1', '4', False]}
+
+Moving player L from position 0 to position 2
+Marking token 1 as used.
+Moving token from 0 to 1
+
+
+**********************
+Completed Rounds: 2
+Token Location: 1
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 1
+Position: 2
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Player L is passing A
+Player L is moving from position 2 to position 4
+Adding 2 points for passing movement.
+Moving player L from position 2 to position 4
+New points: 3
+New position: 4
+**********************
+Completed Rounds: 3
+Token Location: 1
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 3
+Position: 4
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Starting gameConsole
+Starting gameConsole
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player P.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: P
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 1
+Buying tile {1: ['4', '2', '1', '4', False]}
+
+Moving player A from position 0 to position 2
+Marking token 1 as used.
+Moving token from 0 to 1
+
+
+**********************
+Completed Rounds: 1
+Token Location: 1
+*********************
+Player: A
+Points: 1
+Position: 2
+Buttons on Tapestry: 1
+Empty Squares: 77
+*********************
+Player: P
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player P:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+Index 2 has value (18) and dimensions (5,5,2,5)
+
+Buying tile with local option index 2
+Buying tile {4: ['5', '5', '2', '5', False]}
+
+Moving player P from position 0 to position 5
+Adding 2 points from a button token to player P
+Marking token 4 as used.
+Moving token from 1 to 4
+
+
+**********************
+Completed Rounds: 2
+Token Location: 4
+*********************
+Player: A
+Points: 1
+Position: 2
+Buttons on Tapestry: 1
+Empty Squares: 77
+*********************
+Player: P
+Points: 2
+Position: 5
+Buttons on Tapestry: 2
+Empty Squares: 76
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (11) and dimensions (3,3,1,4)
+**Index 1 has value (9) and dimensions (2,3,0,7)
+Index 2 has value (18) and dimensions (0,3,1,6)
+
+Buying tile with local option index 2
+Buying tile {7: ['0', '3', '1', '6', False]}
+
+Moving player A from position 2 to position 5
+Adding 2 points from a button token to player A
+Marking token 7 as used.
+Moving token from 4 to 7
+
+
+**********************
+Completed Rounds: 3
+Token Location: 7
+*********************
+Player: A
+Points: 3
+Position: 5
+Buttons on Tapestry: 2
+Empty Squares: 71
+*********************
+Player: P
+Points: 2
+Position: 5
+Buttons on Tapestry: 2
+Empty Squares: 76
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (9) and dimensions (1,2,0,6)
+Index 1 has value (19) and dimensions (3,6,2,6)
+Index 2 has value (13) and dimensions (2,3,1,5)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 0
+Buying tile {0: ['5', '3', '1', '8', False]}
+
+Moving player A from position 0 to position 3
+Marking token 0 as used.
+Moving token from 0 to 0
+
+
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+None
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+None
+{1: {'player': 'A', 'action': '0', 'tile': ['5', '3', '1', '8', True]}}
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Invalid entry.  Try again
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Buying tile with local option index 0
+Buying tile {1: ['4', '2', '1', '4', False]}
+
+Moving player L from position 0 to position 2
+Marking token 1 as used.
+Moving token from 0 to 1
+
+
+**********************
+Completed Rounds: 2
+Token Location: 1
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 1
+Position: 2
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Player L is passing A
+Player L is moving from position 2 to position 4
+Adding 2 points for passing movement.
+Moving player L from position 2 to position 4
+New points: 3
+New position: 4
+**********************
+Completed Rounds: 3
+Token Location: 1
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 3
+Position: 4
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Player A is passing L
+Player A is moving from position 3 to position 5
+Adding 2 points for passing movement.
+Moving player A from position 3 to position 5
+Adding 1 points from a button token to player A
+New points: 3
+New position: 5
+**********************
+Completed Rounds: 4
+Token Location: 1
+*********************
+Player: A
+Points: 3
+Position: 5
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 3
+Position: 4
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Player L is passing A
+Player L is moving from position 4 to position 6
+Adding 2 points for passing movement.
+Moving player L from position 4 to position 6
+Adding 1 points from a button token to player L
+New points: 6
+New position: 6
+**********************
+Completed Rounds: 5
+Token Location: 1
+*********************
+Player: A
+Points: 3
+Position: 5
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 6
+Position: 6
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (20) and dimensions (10,4,3,5)
+**Index 1 has value (22) and dimensions (8,6,3,6)
+**Index 2 has value (16) and dimensions (5,5,2,5)
+
+Player A is passing L
+Player A is moving from position 5 to position 7
+Adding 2 points for passing movement.
+Moving player A from position 5 to position 7
+New points: 5
+New position: 7
+**********************
+Completed Rounds: 6
+Token Location: 1
+*********************
+Player: A
+Points: 5
+Position: 7
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 6
+Position: 6
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (20) and dimensions (10,4,3,5)
+**Index 1 has value (22) and dimensions (8,6,3,6)
+Index 2 has value (16) and dimensions (5,5,2,5)
+
+Player L is passing A
+Player L is moving from position 6 to position 8
+Adding 2 points for passing movement.
+Moving player L from position 6 to position 8
+New points: 8
+New position: 8
+**********************
+Completed Rounds: 7
+Token Location: 1
+*********************
+Player: A
+Points: 5
+Position: 7
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 8
+Position: 8
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (20) and dimensions (10,4,3,5)
+**Index 1 has value (22) and dimensions (8,6,3,6)
+Index 2 has value (16) and dimensions (5,5,2,5)
+
+Player A is passing L
+Player A is moving from position 7 to position 9
+Adding 2 points for passing movement.
+Moving player A from position 7 to position 9
+New points: 7
+New position: 9
+**********************
+Completed Rounds: 8
+Token Location: 1
+*********************
+Player: A
+Points: 7
+Position: 9
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 8
+Position: 8
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (20) and dimensions (10,4,3,5)
+Index 1 has value (22) and dimensions (8,6,3,6)
+Index 2 has value (16) and dimensions (5,5,2,5)
+
+Buying tile with local option index 1
+Buying tile {3: ['8', '6', '3', '6', False]}
+
+Moving player L from position 8 to position 14
+Adding 4 points from a button token to player L
+Marking token 3 as used.
+Moving token from 1 to 3
+
+
+**********************
+Completed Rounds: 9
+Token Location: 3
+*********************
+Player: A
+Points: 7
+Position: 9
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 4
+Position: 14
+Buttons on Tapestry: 4
+Empty Squares: 71
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (16) and dimensions (5,5,2,5)
+Index 1 has value (10) and dimensions (3,3,1,4)
+Index 2 has value (9) and dimensions (2,3,0,7)
+
+Buying tile with local option index 0
+Buying tile {4: ['5', '5', '2', '5', False]}
+
+Moving player A from position 9 to position 14
+Adding 3 points from a button token to player A
+Marking token 4 as used.
+Moving token from 3 to 4
+
+
+**********************
+Completed Rounds: 10
+Token Location: 4
+*********************
+Player: A
+Points: 5
+Position: 14
+Buttons on Tapestry: 3
+Empty Squares: 68
+*********************
+Player: L
+Points: 4
+Position: 14
+Buttons on Tapestry: 4
+Empty Squares: 71
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (9) and dimensions (3,3,1,4)
+Index 1 has value (9) and dimensions (2,3,0,7)
+Index 2 has value (16) and dimensions (0,3,1,6)
+
+None
+{1: {'player': 'A', 'action': '0', 'tile': ['5', '3', '1', '8', True]}, 2: {'player': 'L', 'action': '0', 'tile': ['4', '2', '1', '4', True]}, 3: {'player': 'L', 'action': 'A'}, 4: {'player': 'A', 'action': 'A'}, 5: {'player': 'L', 'action': 'A'}, 6: {'player': 'A', 'action': 'A'}, 7: {'player': 'L', 'action': 'A'}, 8: {'player': 'A', 'action': 'A'}, 9: {'player': 'L', 'action': '1', 'tile': ['8', '6', '3', '6', True]}, 10: {'player': 'A', 'action': '0', 'tile': ['5', '5', '2', '5', True]}}
+**********************
+Completed Rounds: 10
+Token Location: 4
+*********************
+Player: A
+Points: 5
+Position: 14
+Buttons on Tapestry: 3
+Empty Squares: 68
+*********************
+Player: L
+Points: 4
+Position: 14
+Buttons on Tapestry: 4
+Empty Squares: 71
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (9) and dimensions (3,3,1,4)
+Index 1 has value (9) and dimensions (2,3,0,7)
+Index 2 has value (16) and dimensions (0,3,1,6)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 0
+Buying tile {0: ['5', '3', '1', '8', False]}
+
+Moving player A from position 0 to position 3
+Marking token 0 as used.
+Moving token from 0 to 0
+
+
+-1
+Reverting
+Try Again
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Buying tile with local option index 0
+Buying tile {1: ['4', '2', '1', '4', False]}
+
+Moving player A from position 0 to position 2
+Marking token 1 as used.
+Moving token from 0 to 1
+
+
+-1
+Reverting
+Try Again
+**********************
+Completed Rounds: 2
+Token Location: 1
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+Index 2 has value (18) and dimensions (5,5,2,5)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 0
+Buying tile {0: ['5', '3', '1', '8', False]}
+
+Moving player A from position 0 to position 3
+Marking token 0 as used.
+Moving token from 0 to 0
+
+
+0
+Reverting
+Try Again
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Buying tile with local option index 0
+Buying tile {1: ['4', '2', '1', '4', False]}
+
+Moving player A from position 0 to position 2
+Marking token 1 as used.
+Moving token from 0 to 1
+
+
+0
+Reverting
+Try Again
+**********************
+Completed Rounds: 2
+Token Location: 1
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+Index 2 has value (18) and dimensions (5,5,2,5)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 0
+Buying tile {0: ['5', '3', '1', '8', False]}
+
+Moving player A from position 0 to position 3
+Marking token 0 as used.
+Moving token from 0 to 0
+
+
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Buying tile with local option index 0
+Buying tile {1: ['4', '2', '1', '4', False]}
+
+Moving player L from position 0 to position 2
+Marking token 1 as used.
+Moving token from 0 to 1
+
+
+**********************
+Completed Rounds: 2
+Token Location: 1
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 1
+Position: 2
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 0
+Buying tile {0: ['5', '3', '1', '8', False]}
+
+Moving player A from position 0 to position 3
+Marking token 0 as used.
+Moving token from 0 to 0
+
+
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Buying tile with local option index 0
+Buying tile {1: ['4', '2', '1', '4', False]}
+
+Moving player L from position 0 to position 2
+Marking token 1 as used.
+Moving token from 0 to 1
+
+
+**********************
+Completed Rounds: 2
+Token Location: 1
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 1
+Position: 2
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 0
+Buying tile {0: ['5', '3', '1', '8', False]}
+
+Moving player A from position 0 to position 3
+Marking token 0 as used.
+Moving token from 0 to 0
+
+
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Buying tile with local option index 0
+Buying tile {1: ['4', '2', '1', '4', False]}
+
+Moving player L from position 0 to position 2
+Marking token 1 as used.
+Moving token from 0 to 1
+
+
+**********************
+Completed Rounds: 2
+Token Location: 1
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 1
+Position: 2
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Invalid entry.  Try again
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Invalid entry.  Try again
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 0
+Buying tile {0: ['5', '3', '1', '8', False]}
+
+Moving player A from position 0 to position 3
+Marking token 0 as used.
+Moving token from 0 to 0
+
+
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Buying tile with local option index 0
+Buying tile {1: ['4', '2', '1', '4', False]}
+
+Moving player L from position 0 to position 2
+Marking token 1 as used.
+Moving token from 0 to 1
+
+
+**********************
+Completed Rounds: 2
+Token Location: 1
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 1
+Position: 2
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Buying tile with local option index 0
+Buying tile {2: ['10', '4', '3', '5', False]}
+
+Cannot spend more buttons than you have
+Reverting
+Try Again
+**********************
+Completed Rounds: 2
+Token Location: 1
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 1
+Position: 2
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Buying tile with local option index 0
+Buying tile {2: ['10', '4', '3', '5', False]}
+
+Cannot spend more buttons than you have
+Reverting
+Try Again
+**********************
+Completed Rounds: 2
+Token Location: 1
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 1
+Position: 2
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Buying tile with local option index 0
+Buying tile {2: ['10', '4', '3', '5', False]}
+
+Cannot spend more buttons than you have
+Reverting
+Try Again
+**********************
+Completed Rounds: 2
+Token Location: 1
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 1
+Position: 2
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Invalid entry.  Try again
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: NEWNAME
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player NEWNAME:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 0
+Buying tile {0: ['5', '3', '1', '8', False]}
+
+Moving player NEWNAME from position 0 to position 3
+Marking token 0 as used.
+Moving token from 0 to 0
+
+
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: NEWNAME
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 0
+Buying tile {0: ['5', '3', '1', '8', False]}
+
+Moving player A from position 0 to position 3
+Marking token 0 as used.
+Moving token from 0 to 0
+
+
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 0
+
+Buying tile {0: ['5', '3', '1', '8', False]}
+
+Moving player A from position 0 to position 3
+Marking token 0 as used.
+Moving token from 0 to 0
+
+
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Starting gameConsole
+
+Please enter player name.
+Added player a.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: a
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player a:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 0
+
+Buying tile {0: ['5', '3', '1', '8', False]}
+
+Moving player a from position 0 to position 3
+Marking token 0 as used.
+Moving token from 0 to 0
+
+
+name 'moveList' is not defined
+Reverting
+Try Again
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: a
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player a:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 0
+
+Buying tile {0: ['5', '3', '1', '8', False]}
+
+Moving player A from position 0 to position 3
+Marking token 0 as used.
+Moving token from 0 to 0
+
+
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+1: Patchwork
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 0
+
+Buying tile {0: ['5', '3', '1', '8', False]}
+
+Moving player A from position 0 to position 3
+Marking token 0 as used.
+Moving token from 0 to 0
+
+
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+None
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Player A is passing L
+Player A is moving from position 0 to position 1
+Adding 1 points for passing movement.
+Moving player A from position 0 to position 1
+New points: 6
+New position: 1
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 6
+Position: 1
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 0
+
+Buying tile {0: ['5', '3', '1', '8', False]}
+
+Moving player L from position 0 to position 3
+Marking token 0 as used.
+Moving token from 0 to 0
+
+
+**********************
+Completed Rounds: 2
+Token Location: 0
+*********************
+Player: A
+Points: 6
+Position: 1
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+**********************
+Completed Rounds: 2
+Token Location: 0
+*********************
+Player: A
+Points: 6
+Position: 1
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+None
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Player A is passing L
+Player A is moving from position 0 to position 1
+Adding 1 points for passing movement.
+Moving player A from position 0 to position 1
+New points: 6
+New position: 1
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 6
+Position: 1
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 0
+
+Buying tile {0: ['5', '3', '1', '8', False]}
+
+Moving player L from position 0 to position 3
+Marking token 0 as used.
+Moving token from 0 to 0
+
+
+**********************
+Completed Rounds: 2
+Token Location: 0
+*********************
+Player: A
+Points: 6
+Position: 1
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Buying tile with local option index 1
+
+Buying tile {2: ['10', '4', '3', '5', False]}
+
+Cannot spend more buttons than you have
+Reverting
+Try Again
+**********************
+Completed Rounds: 2
+Token Location: 0
+*********************
+Player: A
+Points: 6
+Position: 1
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Buying tile with local option index 0
+
+Buying tile {1: ['4', '2', '1', '4', False]}
+
+Moving player A from position 1 to position 3
+Marking token 1 as used.
+Moving token from 0 to 1
+
+
+**********************
+Completed Rounds: 3
+Token Location: 1
+*********************
+Player: A
+Points: 6
+Position: 1
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Invalid entry.  Try again
+**********************
+Completed Rounds: 3
+Token Location: 1
+*********************
+Player: A
+Points: 6
+Position: 1
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Invalid entry.  Try again
+**********************
+Completed Rounds: 3
+Token Location: 1
+*********************
+Player: A
+Points: 6
+Position: 1
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Invalid entry.  Try again
+**********************
+Completed Rounds: 3
+Token Location: 1
+*********************
+Player: A
+Points: 6
+Position: 1
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Invalid entry.  Try again
+**********************
+Completed Rounds: 3
+Token Location: 1
+*********************
+Player: A
+Points: 6
+Position: 1
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Invalid entry.  Try again
+**********************
+Completed Rounds: 3
+Token Location: 1
+*********************
+Player: A
+Points: 6
+Position: 1
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Invalid entry.  Try again
+**********************
+Completed Rounds: 3
+Token Location: 1
+*********************
+Player: A
+Points: 6
+Position: 1
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Invalid entry.  Try again
+**********************
+Completed Rounds: 3
+Token Location: 1
+*********************
+Player: A
+Points: 6
+Position: 1
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Invalid entry.  Try again
+**********************
+Completed Rounds: 3
+Token Location: 1
+*********************
+Player: A
+Points: 6
+Position: 1
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Invalid entry.  Try again
+**********************
+Completed Rounds: 3
+Token Location: 1
+*********************
+Player: A
+Points: 6
+Position: 1
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Invalid entry.  Try again
+**********************
+Completed Rounds: 3
+Token Location: 1
+*********************
+Player: A
+Points: 6
+Position: 1
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Invalid entry.  Try again
+**********************
+Completed Rounds: 3
+Token Location: 1
+*********************
+Player: A
+Points: 6
+Position: 1
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Invalid entry.  Try again
+**********************
+Completed Rounds: 3
+Token Location: 1
+*********************
+Player: A
+Points: 6
+Position: 1
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Invalid entry.  Try again
+**********************
+Completed Rounds: 3
+Token Location: 1
+*********************
+Player: A
+Points: 6
+Position: 1
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Invalid entry.  Try again
+**********************
+Completed Rounds: 3
+Token Location: 1
+*********************
+Player: A
+Points: 6
+Position: 1
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Invalid entry.  Try again
+**********************
+Completed Rounds: 3
+Token Location: 1
+*********************
+Player: A
+Points: 6
+Position: 1
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Invalid entry.  Try again
+**********************
+Completed Rounds: 3
+Token Location: 1
+*********************
+Player: A
+Points: 6
+Position: 1
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Invalid entry.  Try again
+**********************
+Completed Rounds: 3
+Token Location: 1
+*********************
+Player: A
+Points: 6
+Position: 1
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Invalid entry.  Try again
+**********************
+Completed Rounds: 3
+Token Location: 1
+*********************
+Player: A
+Points: 6
+Position: 1
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Invalid entry.  Try again
+**********************
+Completed Rounds: 3
+Token Location: 1
+*********************
+Player: A
+Points: 6
+Position: 1
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+**********************
+Completed Rounds: 3
+Token Location: 1
+*********************
+Player: A
+Points: 6
+Position: 1
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+None
+**********************
+Completed Rounds: 3
+Token Location: 1
+*********************
+Player: A
+Points: 6
+Position: 1
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 0
+
+Buying tile {0: ['5', '3', '1', '8', False]}
+
+Moving player A from position 0 to position 3
+Marking token 0 as used.
+Moving token from 0 to 0
+
+
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Buying tile with local option index 0
+
+Buying tile {1: ['4', '2', '1', '4', False]}
+
+Moving player L from position 0 to position 2
+Marking token 1 as used.
+Moving token from 0 to 1
+
+
+**********************
+Completed Rounds: 2
+Token Location: 1
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 1
+Position: 2
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+**********************
+Completed Rounds: 2
+Token Location: 1
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 1
+Position: 2
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+None
+**********************
+Completed Rounds: 2
+Token Location: 1
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 1
+Position: 2
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Player L is passing A
+Player L is moving from position 2 to position 4
+Adding 2 points for passing movement.
+Moving player L from position 2 to position 4
+New points: 3
+New position: 4
+**********************
+Completed Rounds: 3
+Token Location: 1
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 3
+Position: 4
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 0
+
+Buying tile {0: ['5', '3', '1', '8', False]}
+
+Moving player A from position 0 to position 3
+Marking token 0 as used.
+Moving token from 0 to 0
+
+
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Buying tile with local option index 0
+
+Buying tile {1: ['4', '2', '1', '4', False]}
+
+Moving player L from position 0 to position 2
+Marking token 1 as used.
+Moving token from 0 to 1
+
+
+**********************
+Completed Rounds: 2
+Token Location: 1
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 1
+Position: 2
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+None
+{1: {'player': 'A', 'action': '0', 'tile': ['5', '3', '1', '8', True]}, 2: {'player': 'L', 'action': '0', 'tile': ['4', '2', '1', '4', True]}}
+**********************
+Completed Rounds: 2
+Token Location: 1
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 1
+Position: 2
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 0
+
+Buying tile {0: ['5', '3', '1', '8', False]}
+
+Moving player A from position 0 to position 3
+Marking token 0 as used.
+Moving token from 0 to 0
+
+
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Invalid entry.  Try again
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Buying tile with local option index 0
+
+Buying tile {1: ['4', '2', '1', '4', False]}
+
+Moving player L from position 0 to position 2
+Marking token 1 as used.
+Moving token from 0 to 1
+
+
+**********************
+Completed Rounds: 2
+Token Location: 1
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 1
+Position: 2
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+None
+{1: {'player': 'A', 'action': '0', 'tile': ['5', '3', '1', '8', True]}, 2: {'player': 'L', 'action': '0', 'tile': ['4', '2', '1', '4', True]}}
+**********************
+Completed Rounds: 2
+Token Location: 1
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 1
+Position: 2
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 0
+
+Buying tile {0: ['5', '3', '1', '8', False]}
+
+Moving player A from position 0 to position 3
+Marking token 0 as used.
+Moving token from 0 to 0
+
+
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Invalid entry.  Try again
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Buying tile with local option index 0
+
+Buying tile {1: ['4', '2', '1', '4', False]}
+
+Moving player L from position 0 to position 2
+Marking token 1 as used.
+Moving token from 0 to 1
+
+
+**********************
+Completed Rounds: 2
+Token Location: 1
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 1
+Position: 2
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+None
+{1: {'player': 'A', 'action': '0', 'tile': ['5', '3', '1', '8', True, 'test']}, 2: {'player': 'L', 'action': '0', 'tile': ['4', '2', '1', '4', True]}}
+**********************
+Completed Rounds: 2
+Token Location: 1
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 1
+Position: 2
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 0
+
+Buying tile {0: ['5', '3', '1', '8', False]}
+
+Moving player A from position 0 to position 3
+Marking token 0 as used.
+Moving token from 0 to 0
+
+
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Starting gameConsole
+
+Please enter player name.
+Added player A.
+
+Please enter player name.
+Added player L.
+1: Patchwork
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: A
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player A:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (17) and dimensions (5,3,1,8)
+Index 1 has value (11) and dimensions (4,2,1,4)
+**Index 2 has value (23) and dimensions (10,4,3,5)
+
+Buying tile with local option index 0
+
+Buying tile {0: ['5', '3', '1', '8', False]}
+
+Moving player A from position 0 to position 3
+Marking token 0 as used.
+Moving token from 0 to 0
+
+
+**********************
+Completed Rounds: 1
+Token Location: 0
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+Index 0 has value (11) and dimensions (4,2,1,4)
+**Index 1 has value (23) and dimensions (10,4,3,5)
+**Index 2 has value (25) and dimensions (8,6,3,6)
+
+Buying tile with local option index 0
+
+Buying tile {1: ['4', '2', '1', '4', False]}
+
+Moving player L from position 0 to position 2
+Marking token 1 as used.
+Moving token from 0 to 1
+
+
+**********************
+Completed Rounds: 2
+Token Location: 1
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 1
+Position: 2
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+Invalid entry.  Try again
+**********************
+Completed Rounds: 2
+Token Location: 1
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 1
+Position: 2
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
+None
+[{'player': 'A', 'action': '0', 'tile': ['5', '3', '1', '8', True]}, {'player': 'L', 'action': '0', 'tile': ['4', '2', '1', '4', True]}]
+**********************
+Completed Rounds: 2
+Token Location: 1
+*********************
+Player: A
+Points: 0
+Position: 3
+Buttons on Tapestry: 1
+Empty Squares: 73
+*********************
+Player: L
+Points: 1
+Position: 2
+Buttons on Tapestry: 1
+Empty Squares: 77
+**********************
+Player L:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter P to print board.
+Enter A to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (23) and dimensions (10,4,3,5)
+**Index 1 has value (25) and dimensions (8,6,3,6)
+**Index 2 has value (18) and dimensions (5,5,2,5)
+
