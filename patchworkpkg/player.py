@@ -17,14 +17,14 @@ class player:
         if self.points < int(info[0]):
             raise Exception('Cannot spend more buttons than you have')
         
-        print('Buying piece that costs '+str(info[0])+' buttons and '+str(info[1])+' time. Adding '+str(info[2])+' buttons to your tapestry.')
-        print('Changing points from '+str(self.points)+' to '+str(self.points-int(info[0])))
+        print('Buying piece that costs {0} buttons and {1} time. Adding {2} buttons to your tapestry.'.format(info[0],info[1],info[2]))
+        print('Changing points from {0} to {1} '.format(self.points, (self.points-int(info[0]))))
         self.points = self.points-int(info[0])
-        print('Changing tapestry buttons from '+str(self.buttons)+' to '+str(self.buttons+int(info[2]))) 
+        print('Changing tapestry buttons from to '.format(self.buttons,self.buttons+int(info[2]))) 
         self.buttons = self.buttons+int(info[2])
-        print('Changing empty squares from '+str(self.emptySquares)+' to '+str(max(self.emptySquares-int(info[3]),0)))
+        print('Changing empty squares from to '.format(self.emptySquares,max(self.emptySquares-int(info[3]),0)))
         self.emptySquares = max(self.emptySquares-int(info[3]),0)
 
     def projectPoints(self, thisgame):
         buttonsleft = self.buttonsleft
-        print('Projected points: '+str(self.points+(thisgame.end-self.position)+(buttonsleft*self.buttons)-(2*self.emptySquares)))
+        print('Projected points: '.format(self.points+(thisgame.end-self.position)+(buttonsleft*self.buttons)-(2*self.emptySquares)))

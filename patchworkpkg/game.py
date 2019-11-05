@@ -101,8 +101,8 @@ class game:
         movedistance = min(int(g[1]), self.end-chooser.position)
         self.move(chooser,movedistance)
 
-    def chooseTile2(self, tile, chooser):
-        self.logger.info('Buying tile {0}\n'.format(tile))
+    def chooseTile2(self, thisAction, tile, chooser):
+        self.logger.info('\nBuying tile {0}\n'.format(tile))
         key = list(tile)[0]
         g=tile[list(tile)[0]][0:4]
         chooser.buy(g)
@@ -110,17 +110,17 @@ class game:
         self.move(chooser,movedistance)
         g.append(True)
         self.thisboard.contents[key] = g
+        self.augmentAction(thisAction, 'tile', g)
         self.logger.info('Marking token {0} as used.'.format(key))
         self.logger.info('Moving token from {0} to {1}'.format(self.thisboard.tokenPos,key))
         self.thisboard.tokenPos = key
         self.logger.info('\n')
 
-    def chooseOption(self, optionIndex, chooser):
+    def chooseOption(self, thisAction,optionIndex, chooser):
         self.logger.info('Buying tile with local option index {0}'.format(optionIndex))
         for value in self.thisboard.nextOptions[optionIndex].values():
             holder = value[0:4]
-            holder.append(chooser.buttonsleft*int(value[2]))
-            self.chooseTile2(self.thisboard.nextOptions[optionIndex],chooser)
+            self.chooseTile2(thisAction, self.thisboard.nextOptions[optionIndex],chooser)
 
     def checkEnd(self):
         if self.end < self.player1.position or self.end < self.player2.position:
@@ -143,23 +143,27 @@ class game:
             player1 = args[1]
             player2 = args[2]
             thisAction = self.createActionObject(player1, indata)
-            if thisAction['Action'] == 'Q':
+            if thisAction['action'] == 'Q':
                 sys.exit()
-            elif indata == 'S':
+            elif thisAction['action'] == 'S':
                 self.logger.info(self.printScore())
-            elif indata == 'P':
-                self.logger.infoBoard()
-            elif indata == 'A':
-                self.logMove(thisAction)
-                self.choosePass(player1,player2 )
+            elif thisAction['action'] == 'P':
+                self.logger.info(self.thisboard.printBoard())
+                self.logger.info(self.moveList)
+            elif thisAction['action'] == 'A':
+                self.choosePass(player1,player2)
                 self.completedRounds += 1
+                self.logMove(thisAction)
             elif indata == 'T':
+                self.logMove(thisAction)
                 player.points+=7
             elif indata in map(str,range(0,3)):
                 try:
                     backup = player.player(player1.name, player1.position, player1.points, player1.buttons, player1.emptySquares)
-                    self.chooseOption(int(indata),player1)
+                    self.augmentAction(thisAction, 'tile', self.thisboard.nextOptions[int(indata)])
+                    self.chooseOption(thisAction,int(indata),player1)
                     self.completedRounds += 1
+                    self.logMove(thisAction)
                 except Exception as e:
                     self.logger.info(e)
                     self.logger.info('Reverting')
@@ -172,13 +176,17 @@ class game:
      
     def createActionObject(self, *args):
         thisActionObject={'player': args[0].name}
-        thisActionObject['Action'] = args[1]
-        print(thisActionObject)
+        thisActionObject['action'] = args[1]
+        if len(args) > 2: thisActionObject['tile'] = args[2]
         return thisActionObject
+    
+    def augmentAction(self,*args):
+        args[0][args[1]] = args[2]
                 
-    def logMove(self, moveObject):
+    def logMove(self, actionObject):
+        self.moveList[self.completedRounds] = actionObject
         pass
-       
+      
     def buildActions(self):
         self.actionList = {
             'Q':[sys.exit],
