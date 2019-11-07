@@ -8,6 +8,7 @@ import sys
 import patchworkGame
 import player
 import dialogMessages as dm
+import shelve
 
 class game:
     def __init__(self,name='NewGame',*args):
@@ -22,43 +23,59 @@ class game:
         self.player2 = args[1][1]
         self.play(self.player1, self.player2)
 
-        
+    #this will need to be modified  when the playing cadence or win criteria changes    
     def play(self, player1, player2):
         while not   self.checkEnd():
             self.player1 = self.takeTurn(player1, player2, self.thisboard)
+            if self.checkEnd(): break
             self.player2 = self.takeTurn(player2, player1, self.thisboard)
-        if self.player1.projectPoints()>self.player2.projectPoints():
-            self.logger.info('Game Over!  Player {0} won {1} to {2}'.format(player1.name, self.player1.projectedPoints(),self.player2.projectedPoints()))
-        elif self.player2.projectPoints()>self.player1.projectPoints():
-            self.logger.info('Game Over!  Player {0} won {1} to {2}'.format(player2.name, self.player2.projectedPoints(),self.player1.projectedPoints()))
-        elif self.player2.projectPoints()==self.player2.projectPoints():
-            self.logger.info('Game Over!  Players tied! {0} to {1}'.format(self.player1.projectedPoints(),self.player2.projectedPoints()))
+        if self.projectPoints(player1)>self.projectPoints(player2):
+            self.logger.info('Game Over!  Player {0} won {1} to {2}'.format(player1.name, self.projectedPoints(player1),self.projectedPoints(player2)))
+        elif self.projectPoints(player2)>self.projectPoints(player1):
+            self.logger.info('Game Over!  Player {0} won {1} to {2}'.format(player2.name, self.projectedPoints(player2),self.projectedPoints(player1)))
+        elif self.projectPoints(player1)==self.projectPoints(player2):
+            self.logger.info('Game Over!  Players tied! {0} to {1}'.format(self.projectedPoints(player1),self.projectedPoints(player2)))
         else:
             self.logger.info('Game Over!  Error!')
             
     def takeTurn(self, player1, player2, thisboard):
         self.thisboard = thisboard
         while player1.position <= player2.position:
-            self.printScore()
+            #self.printScore()
             self.logger.info(dm.sessionMessages['patchworkActions'].format(player1.name))
             self.logger.info(self.presentOptions(player1))
             indata = input()
             thisAction = self.createActionObject(indata, player1, player2)
-            player1 = self.takeAction(thisAction)
+            direction = self.takeAction(thisAction)
+            print(direction)
+            if player1.position == player2.position and direction == -1 : break
         return player1
 
     def move(self, player, distance):    
         self.logger.info('Moving player {0} from position {1} to position {2}'.format(player.name,player.position,player.position+int(distance)))
         newpos = player.position+int(distance)
-        for i in range(player.position+1,newpos+1):
-            if i in self.thisboard.singletokens:
-                player.emptySquares += 1
-                self.thisboard.singletokens.remove(i)
-                self.logger.info('Adding 2 points from a token to player {0}'.format(player.name))
-        for i in range(player.position+1,newpos+1):
+        if distance >= 0: 
+            fromList = self.thisboard.singletokens
+            toList = player.myTokens
+            addRemove = 'Adding'
+            direction = 1
+            offset = 1
+        else:
+            fromList = self.thisboard.singletokens
+            toList = player.myTokens
+            addRemove = 'Removing'
+            direction = -1
+            offset = 0 
+        for i in range(player.position+offset,newpos+offset, direction):
+            if i in fromList:
+                player.emptySquares += direction
+                fromList.remove(i)
+                toList.append(i)
+                self.logger.info('{0} 2 points from a token to player {1}'.format(addRemove, player.name))
+        for i in range(player.position+offset,newpos+offset, direction):
             if i in self.thisboard.buttons:
-                player.points += player.buttons
-                player.buttonsleft -= 1
+                player.points += direction*player.buttons
+                player.buttonsleft -= direction
                 self.logger.info('Adding {0} points from a button token to player {1}'.format(player.buttons,player.name))
         player.position = newpos
 
@@ -94,37 +111,29 @@ class game:
         self.logger.info('**********************')
 
 
-    #this method does not keep track of the tile options
-    def chooseTile(self, chooser):
-        self.logger.info('Enter tile (buttoncost, timecost, buttons, coveredsquares?')
-        g=input().split(',')
-        chooser.buy(g)
-        movedistance = min(int(g[1]), self.end-chooser.position)
-        self.move(chooser,movedistance)
-
-    def chooseTile2(self, thisAction, tile, chooser, direction = 1):
-        self.logger.info('\nBuying tile {0}\n'.format(tile))
-        key = list(tile)[0]
-        g=tile[list(tile)[0]][0:4]
-        chooser.buy(g)
-        movedistance = min(int(g[1]), self.end-chooser.position)
-        self.move(chooser,movedistance)
-        g.append(True)
+    def chooseTile(self, thisAction, direction = 1):
+        self.logger.info('\nBuying tile {0}\n'.format(thisAction['tile']))
+        for key in thisAction['tile'].keys():
+            g = thisAction['tile'][key]
+        if direction ==1: 
+            movedistance = min(int(g[1]), self.end-thisAction['player1'].position)
+            thisAction['player1'].buy(g)
+            self.move(thisAction['player1'],movedistance)
+            g[4] = True
+        else: 
+            movedistance = -1*int(g[1])
+            self.move(thisAction['player1'],movedistance)
+            thisAction['player1'].sell(g)
+            g[4] = False
+ 
         self.thisboard.contents[key] = g
-        self.augmentAction(thisAction, 'tile', g)
         self.logger.info('Marking token {0} as used.'.format(key))
         self.logger.info('Moving token from {0} to {1}'.format(self.thisboard.tokenPos,key))
         self.thisboard.tokenPos = key
         self.logger.info('\n')
 
-    def chooseOption(self, thisAction,optionIndex, chooser, direction=1):
-        self.logger.info('Buying tile with local option index {0}'.format(optionIndex))
-        for value in self.thisboard.nextOptions[optionIndex].values():
-            holder = value[0:4]
-            self.chooseTile2(thisAction, self.thisboard.nextOptions[optionIndex],chooser, direction)
-
     def checkEnd(self):
-        if self.end < self.player1.position or self.end < self.player2.position:
+        if self.end <= self.player1.position or self.end <= self.player2.position:
             return True
         else:
             return False
@@ -143,30 +152,35 @@ class game:
         indata = thisAction['action']
         player1 = thisAction['player1']
         player2 = thisAction['player2']
-        print (direction)
         if indata == 'Q':
             sys.exit()
-        elif indata == 'S':
-            self.printScore()
         elif indata == 'B':
             self.thisboard.printBoard()
+            self.logger.debug(self.moveList)
+            self.printScore()
+        elif indata == 'S':
+            self.saveGameState()
+        elif indata == 'L':
+            self.loadGameState()
         elif indata == 'P':
             if 'startpos' not in thisAction.keys(): thisAction['startpos'] = player1.position
             self.choosePass(thisAction,direction)
-            self.logMove(thisAction)
+            self.logMove(thisAction, direction)
         elif indata == 'U':
             self.logger.info('Unrolling move:')
             self.unrollAction()
+            direction = -1
         elif indata == 'T':
-            player.points+=7
-            self.logMove(thisAction)
+            thisAction['player1'].points+=direction*7
+            self.logMove(thisAction, direction)
         elif indata in map(str,range(0,3)):
             try:
                 #backup = player.player(player1.name, player1.position, player1.points, player1.buttons, player1.emptySquares)
-                self.augmentAction(thisAction, 'tile', self.thisboard.nextOptions[int(indata)])
-                self.chooseOption(thisAction,int(indata),player1)
-                self.completedRounds += 1
-                self.logMove(thisAction)
+                
+                self.augmentAction(thisAction, 'tile', thisAction.get('tile',self.thisboard.nextOptions[int(indata)]))
+                self.chooseTile(thisAction, direction)
+                self.completedRounds += direction
+                self.logMove(thisAction,direction)
             except Exception as e:
                 self.logger.info(e)
                 self.logger.info('Reverting')
@@ -175,13 +189,8 @@ class game:
         else:
             self.logger.info('Invalid entry.  Try again')
         
-        return player1  
-    
-    def calcMoveDistanct(self, toPosition, fromPosition ):
-        if direction == 1: newposition = min(passed.position+direction, self.end) 
-        else: newposition = thisAction['startpos']  
-        distance = (newposition-passer.position)
-    
+        return direction
+
     def createActionObject(self, *args):
         thisActionObject={'action': args[0]}
         thisActionObject['player1'] = args[1]
@@ -190,16 +199,44 @@ class game:
         return thisActionObject
     
     def augmentAction(self,*args):
+        print(args[2])
         args[0][args[1]] = args[2]
     
     def unrollAction(self):
         unrolledAction = self.moveList.pop()
+        self.logger.info(unrolledAction)
         self.takeAction(unrolledAction,-1)
         self.logger.info('Action {0} unrolled!'.format(unrolledAction))
-
-                
-    def logMove(self, actionObject):
-        self.moveList.append(actionObject)
+               
+    def logMove(self, actionObject, direction=1):
+        if direction == 1: self.moveList.append(actionObject)
         print(self.moveList)
-      
         
+    def saveGameState(self, name='test'):
+        self.logger.info('\nEnter name of saved game:\n')
+        name = input()
+        self.gameState = {
+                            'board': self.thisboard,
+                            'moveList': self.moveList,
+                            'player1': self.player1,
+                            'player2': self.player2
+                         }
+        gameStore = shelve.open('patchworkGame') 
+        gameStore[name] = self.gameState 
+        gameStore.close()
+
+    def loadGameState(self, name='test'):
+        self.logger.info('\nEnter name of saved game to load\n')
+        gameStore = shelve.open('patchworkGame')
+        for i in gameStore.keys(): print(i)
+        name = input()
+        self.gameState = gameStore.get(name)
+        self.thisboard = self.gameState['board']
+        self.player1 =  self.gameState['player1']
+        self.player2 = self.gameState['player2']
+        self.moveList = self.gameState['moveList']
+        self.completedRounds = len(self.moveList)
+
+    def projectPoints(self, player1):
+        print('Projected points: '.format(player1.points+(self.end-player1.position)+(player1.buttonsleft*player1.buttons)-(2*player1.emptySquares)))
+     
