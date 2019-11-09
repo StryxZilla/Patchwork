@@ -4,8 +4,9 @@ Created on Nov 3, 2019
 @author: Andy
 '''
 import logging
-import gameConsole as gc
+import game
 import sys
+
 
 def main():
     
@@ -22,7 +23,8 @@ def main():
 #     logger.addHandler(sh)
 
     logger.info('Starting gameConsole')
-    myConsole = gc.gameSession(logger)
+    
+    myGame = game.game('newgame',logger)
     logger.info('Application closing')
  
     for handler in logger.handlers:

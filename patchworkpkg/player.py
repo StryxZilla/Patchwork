@@ -9,7 +9,8 @@ class player:
         self.position = position
         self.points = points
         self.buttons = buttons
-        self.emptySquares = emptySquares
+        self.maxSquares = emptySquares
+        self.emptySquares = self.maxSquares
         self.buttonsleft = 9
         self.myTokens = []
 
@@ -32,5 +33,4 @@ class player:
         print('Changing tapestry buttons from {1} to {0}'.format(self.buttons,self.buttons-int(info[2]))) 
         self.buttons = self.buttons-int(info[2])
         print('Changing empty squares from {1} to {0}'.format(self.emptySquares,max(self.emptySquares+int(info[3]),0)))
-        self.emptySquares = self.emptySquares+int(info[3])
-
+        self.emptySquares = min(self.emptySquares+int(info[3]),self.maxSquares)

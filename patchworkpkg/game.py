@@ -10,6 +10,7 @@ import player
 import dialogMessages as dm
 import shelve
 
+
 class game:
     def __init__(self,name='NewGame',*args):
         self.completedRounds = 0
@@ -19,26 +20,27 @@ class game:
         self.thisboard = patchworkGame.board()
         self.logger = args[0]
         self.moveList = []
-        self.player1 = args[1][0]
-        self.player2 = args[1][1]
+        self.player1 = player.player('Player1')
+        self.player2 = player.player('Player2')
         self.play(self.player1, self.player2)
 
     #this will need to be modified  when the playing cadence or win criteria changes    
     def play(self, player1, player2):
         while not   self.checkEnd():
-            self.player1 = self.takeTurn(player1, player2, self.thisboard)
+            self.takeTurn(self.player1, self.player2, self.thisboard)
             if self.checkEnd(): break
-            self.player2 = self.takeTurn(player2, player1, self.thisboard)
+            self.takeTurn(self.player2, self.player1, self.thisboard)
         if self.projectPoints(player1)>self.projectPoints(player2):
-            self.logger.info('Game Over!  Player {0} won {1} to {2}'.format(player1.name, self.projectedPoints(player1),self.projectedPoints(player2)))
+            self.logger.info('Game Over!  Player {0} won {1} to {2}'.format(player1.name, self.projectPoints(player1),self.projectPoints(player2)))
         elif self.projectPoints(player2)>self.projectPoints(player1):
-            self.logger.info('Game Over!  Player {0} won {1} to {2}'.format(player2.name, self.projectedPoints(player2),self.projectedPoints(player1)))
+            self.logger.info('Game Over!  Player {0} won {1} to {2}'.format(player2.name, self.projectPoints(player2),self.projectPoints(player1)))
         elif self.projectPoints(player1)==self.projectPoints(player2):
             self.logger.info('Game Over!  Players tied! {0} to {1}'.format(self.projectedPoints(player1),self.projectedPoints(player2)))
         else:
             self.logger.info('Game Over!  Error!')
             
     def takeTurn(self, player1, player2, thisboard):
+
         self.thisboard = thisboard
         while player1.position <= player2.position:
             #self.printScore()
@@ -47,7 +49,8 @@ class game:
             indata = input()
             thisAction = self.createActionObject(indata, player1, player2)
             direction = self.takeAction(thisAction)
-            print(direction)
+            player1 = thisAction['player1']
+            player2 = thisAction['player2']
             if player1.position == player2.position and direction == -1 : break
         return player1
 
@@ -102,12 +105,14 @@ class game:
         self.logger.info('Position: {0}'.format(self.player1.position))
         self.logger.info('Buttons on Tapestry: {0}'.format(self.player1.buttons))
         self.logger.info('Empty Squares: {0}'.format(self.player1.emptySquares))
+        self.logger.info(self.projectPoints(self.player1))
         self.logger.info('*********************')
         self.logger.info('Player: {0}'.format(self.player2.name))
         self.logger.info('Points: {0}'.format(self.player2.points))
         self.logger.info('Position: {0}'.format(self.player2.position))
         self.logger.info('Buttons on Tapestry: {0}'.format(self.player2.buttons))
         self.logger.info('Empty Squares: {0}'.format(self.player2.emptySquares))
+        self.logger.info(self.projectPoints(self.player2))
         self.logger.info('**********************')
 
 
@@ -133,7 +138,7 @@ class game:
         self.logger.info('\n')
 
     def checkEnd(self):
-        if self.end <= self.player1.position or self.end <= self.player2.position:
+        if self.end <= self.player1.position and self.end <= self.player2.position:
             return True
         else:
             return False
@@ -161,7 +166,7 @@ class game:
         elif indata == 'S':
             self.saveGameState()
         elif indata == 'L':
-            self.loadGameState()
+            self.loadGameState(thisAction)
         elif indata == 'P':
             if 'startpos' not in thisAction.keys(): thisAction['startpos'] = player1.position
             self.choosePass(thisAction,direction)
@@ -199,7 +204,6 @@ class game:
         return thisActionObject
     
     def augmentAction(self,*args):
-        print(args[2])
         args[0][args[1]] = args[2]
     
     def unrollAction(self):
@@ -210,7 +214,6 @@ class game:
                
     def logMove(self, actionObject, direction=1):
         if direction == 1: self.moveList.append(actionObject)
-        print(self.moveList)
         
     def saveGameState(self, name='test'):
         self.logger.info('\nEnter name of saved game:\n')
@@ -225,18 +228,22 @@ class game:
         gameStore[name] = self.gameState 
         gameStore.close()
 
-    def loadGameState(self, name='test'):
+    def loadGameState(self, thisAction, name='test'):
         self.logger.info('\nEnter name of saved game to load\n')
         gameStore = shelve.open('patchworkGame')
         for i in gameStore.keys(): print(i)
         name = input()
         self.gameState = gameStore.get(name)
         self.thisboard = self.gameState['board']
+
         self.player1 =  self.gameState['player1']
         self.player2 = self.gameState['player2']
         self.moveList = self.gameState['moveList']
         self.completedRounds = len(self.moveList)
+        thisAction['player1'] = self.gameState['player1']
+        thisAction['player2'] = self.gameState['player2']
+
 
     def projectPoints(self, player1):
-        print('Projected points: '.format(player1.points+(self.end-player1.position)+(player1.buttonsleft*player1.buttons)-(2*player1.emptySquares)))
+        return('Projected points: {0}'.format(player1.points+(self.end-player1.position)+(player1.buttonsleft*player1.buttons)-(2*player1.emptySquares)))
      
