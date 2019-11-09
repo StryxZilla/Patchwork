@@ -5,8 +5,8 @@ Created on Nov 3, 2019
 '''
 
 import sys
-import patchworkGame
-import player
+import patchworkGameModel as pgm
+import playerModel
 import dialogMessages as dm
 import shelve
 
@@ -17,11 +17,11 @@ class game:
         self.name = name
         self.end = 53
         self.playerList = args
-        self.thisboard = patchworkGame.board()
+        self.thisboard = pgm.board()
         self.logger = args[0]
         self.moveList = []
-        self.player1 = player.player('Player1')
-        self.player2 = player.player('Player2')
+        self.player1 = playerModel.player('Player1', self.logger)
+        self.player2 = playerModel.player('Player2', self.logger)
         self.play(self.player1, self.player2)
 
     #this will need to be modified  when the playing cadence or win criteria changes    
@@ -122,13 +122,13 @@ class game:
             g = thisAction['tile'][key]
         if direction ==1: 
             movedistance = min(int(g[1]), self.end-thisAction['player1'].position)
-            thisAction['player1'].buy(g)
+            self.buy(thisAction['player1'],g)
             self.move(thisAction['player1'],movedistance)
             g[4] = True
         else: 
             movedistance = -1*int(g[1])
             self.move(thisAction['player1'],movedistance)
-            thisAction['player1'].sell(g)
+            self.sell(thisAction['player1'],g)
             g[4] = False
  
         self.thisboard.contents[key] = g
@@ -156,7 +156,6 @@ class game:
     def takeAction(self, thisAction, direction=1):
         indata = thisAction['action']
         player1 = thisAction['player1']
-        player2 = thisAction['player2']
         if indata == 'Q':
             sys.exit()
         elif indata == 'B':
@@ -247,3 +246,24 @@ class game:
     def projectPoints(self, player1):
         return('Projected points: {0}'.format(player1.points+(self.end-player1.position)+(player1.buttonsleft*player1.buttons)-(2*player1.emptySquares)))
      
+
+    def buy(self, player, info):
+        if player.points < int(info[0]):
+            raise Exception('Cannot spend more buttons than you have')
+            return    
+        print('Buying piece that costs {0} buttons and {1} time. Adding {2} buttons to your tapestry.'.format(info[0],info[1],info[2]))
+        print('Changing points from {0} to {1} '.format(player.points, (player.points-int(info[0]))))
+        player.points = player.points-int(info[0])
+        print('Changing tapestry buttons from to '.format(player.buttons,player.buttons+int(info[2]))) 
+        player.buttons = player.buttons+int(info[2])
+        print('Changing empty squares from to '.format(player.emptySquares,max(player.emptySquares-int(info[3]),0)))
+        player.emptySquares = max(player.emptySquares-int(info[3]),0)
+        
+    def sell(self, player, info): 
+        print('Selling piece that costs {0} buttons and {1} time. Removing {2} buttons from your tapestry.'.format(info[0],info[1],info[2]))
+        print('Changing points from {0} to {1} '.format(player.points, (player.points+int(info[0]))))
+        player.points = player.points+int(info[0])
+        print('Changing tapestry buttons from {1} to {0}'.format(player.buttons,player.buttons-int(info[2]))) 
+        player.buttons = player.buttons-int(info[2])
+        print('Changing empty squares from {1} to {0}'.format(player.emptySquares,max(player.emptySquares+int(info[3]),0)))
+        player.emptySquares = min(player.emptySquares+int(info[3]),player.maxSquares)

@@ -5,6 +5,17 @@ Created on Nov 3, 2019
 '''
 import boardFile as bf
 
+
+class piece:
+    def __init__(self, location = 0, cost = 0, time = 0, buttons = 0, squares = 0):
+        self.location = location
+        self.cost = cost
+        self.time = time
+        self.buttons = buttons
+        self.squares = squares
+        
+    
+
 class board:
     def __init__(self, configFile = {}):
         self.contents = {}

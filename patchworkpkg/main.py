@@ -4,7 +4,7 @@ Created on Nov 3, 2019
 @author: Andy
 '''
 import logging
-import game
+import gameController
 import sys
 
 
@@ -23,8 +23,7 @@ def main():
 #     logger.addHandler(sh)
 
     logger.info('Starting gameConsole')
-    
-    myGame = game.game('newgame',logger)
+    myGame = gameController.game('newgame',logger)
     logger.info('Application closing')
  
     for handler in logger.handlers:

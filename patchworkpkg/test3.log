@@ -7187,3 +7187,153 @@ Index 0 has value (1) and dimensions (2,1,0,2)
 Index 1 has value (-3) and dimensions (6,5,2,4)
 Index 2 has value (-4) and dimensions (10,4,3,5)
 
+Starting gameConsole
+Starting gameConsole
+Player Player1:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter B to print board.
+Enter U to undo a move
+Enter P to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (11) and dimensions (7,1,1,5)
+Index 1 has value (9) and dimensions (2,3,0,7)
+**Index 2 has value (21) and dimensions (7,2,2,6)
+
+**********************
+Completed Rounds: 0
+Token Location: 0
+*********************
+Player: Player1
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+Projected points: -104
+*********************
+Player: Player2
+Points: 5
+Position: 0
+Buttons on Tapestry: 0
+Empty Squares: 81
+Projected points: -104
+**********************
+Player Player1:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter B to print board.
+Enter U to undo a move
+Enter P to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (11) and dimensions (7,1,1,5)
+Index 1 has value (9) and dimensions (2,3,0,7)
+**Index 2 has value (21) and dimensions (7,2,2,6)
+
+Starting gameConsole
+Starting gameConsole
+Application closing
+Starting gameConsole
+Application closing
+Starting gameConsole
+Application closing
+Starting gameConsole
+Application closing
+Starting gameConsole
+Application closing
+Starting gameConsole
+Application closing
+Starting gameConsole
+Starting gameConsole
+Starting gameConsole
+Starting gameConsole
+Starting gameConsole
+Player <RootLogger root (DEBUG)>:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter B to print board.
+Enter U to undo a move
+Enter P to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (11) and dimensions (7,1,1,5)
+Index 1 has value (9) and dimensions (2,3,0,7)
+**Index 2 has value (21) and dimensions (7,2,2,6)
+
+
+Buying tile {0: ['7', '1', '1', '5', False]}
+
+Cannot spend more buttons than you have
+Reverting
+Try Again
+Player <RootLogger root (DEBUG)>:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter B to print board.
+Enter U to undo a move
+Enter P to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (11) and dimensions (7,1,1,5)
+Index 1 has value (9) and dimensions (2,3,0,7)
+**Index 2 has value (21) and dimensions (7,2,2,6)
+
+
+Buying tile {1: ['2', '3', '0', '7', False]}
+
+'player' object has no attribute 'emptySquares'
+Reverting
+Try Again
+Player <RootLogger root (DEBUG)>:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter B to print board.
+Enter U to undo a move
+Enter P to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (11) and dimensions (7,1,1,5)
+Index 1 has value (9) and dimensions (2,3,0,7)
+**Index 2 has value (21) and dimensions (7,2,2,6)
+
+Starting gameConsole
+Player <RootLogger root (DEBUG)>:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter B to print board.
+Enter U to undo a move
+Enter P to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (11) and dimensions (7,1,1,5)
+Index 1 has value (9) and dimensions (2,3,0,7)
+**Index 2 has value (21) and dimensions (7,2,2,6)
+
+
+Buying tile {1: ['2', '3', '0', '7', False]}
+
+Moving player <RootLogger root (DEBUG)> from position 0 to position 3
+Marking token 1 as used.
+Moving token from 0 to 1
+
+
+Player <RootLogger root (DEBUG)>:
+Enter S to see the score.
+Enter Q to quit
+Press T to register +7 card for this player.
+Enter B to print board.
+Enter U to undo a move
+Enter P to pass opponent.
+Enter an index to pick a tile.
+
+**Index 0 has value (21) and dimensions (7,2,2,6)
+Index 1 has value (2) and dimensions (2,2,0,3)
+**Index 2 has value (15) and dimensions (6,5,2,4)
+
